@@ -1,3 +1,4 @@
+const estudiantes =
 [
   {
     "estudiante": "001",
@@ -2639,4 +2640,6 @@
     "estado": "C",
     "carrera": 1708
   }
-]
+];
+
+export default estudiantes;
