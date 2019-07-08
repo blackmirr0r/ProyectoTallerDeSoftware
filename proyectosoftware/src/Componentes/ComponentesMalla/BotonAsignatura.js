@@ -40,7 +40,7 @@ class BotonAsignatura extends React.Component {
                         <p className="font-weight-bold">Codigo: {this.props.ramo.codigo}</p>
                         <p className="font-weight-bold">Creditos: {this.props.ramo.creditos}</p>
                         <p className="font-weight-bold d-flex">Tasa de Aprobación:  <TasaApr tasa_apr={tasa_aprobacion} /> </p>
-                        <p className="font-weight-bold d-flex">Requisitos:   <Requisitos requisitos={this.props.ramo.requisitos}/></p>
+                        <p className="font-weight-bold d-flex">Requisitos <Requisitos requisitos={this.props.ramo.requisitos}/></p>
                     </Modal.Body>
                     <Modal.Footer>
                       <div className="text-center">
