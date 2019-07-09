@@ -27,7 +27,7 @@ class BotonAsignatura extends React.Component {
         let tasa_aprobacion = Math.ceil((1 - this.props.ramo.tasa_repr) * 100);
         return(
             <React.Fragment>
-                <Button href="#" variant="light" className="container my-1 list-group-item list-grou-item-action border border-secondary rounded" onClick={this.handleShow}>
+                <Button href="#" variant="light" className="container my-1 list-group-item list-grou-item-action border border-secondary rounded rounded-pill" onClick={this.handleShow}>
                     { this.props.ramo.nombre }
                 </Button>
 

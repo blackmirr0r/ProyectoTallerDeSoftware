@@ -6,7 +6,7 @@ function Semestre(props) {
     return (
       <div>
         <div className="list-group border my-4 mx-4">
-            <li href="#" class="list-group-item list-group-item-action morado text-white mb-3"><b>{props.posSem} Semestre </b></li>
+            <li href="#" class="list-group-item list-group-item-action morado text-white mb-3 rounded-pill"><b>{props.posSem} Semestre </b></li>
             {props.ramos.map((ramo, index) =>
                   <Asignatura
                       ramo={ramo}
