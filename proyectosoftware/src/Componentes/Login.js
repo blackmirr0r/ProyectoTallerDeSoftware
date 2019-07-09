@@ -5,12 +5,11 @@ import Formulario from './ComponentesLogin/Formulario';
 
 function Login() {
   return (
-      <React.Fragment>
         <div className="wrapper">
             <Icono />
             <Formulario />
         </div>
-       </React.Fragment>
+
   );
 }
 

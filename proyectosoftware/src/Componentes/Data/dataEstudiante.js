@@ -5,6 +5,7 @@ const estudiantes =
         estudiante: '001',
         anio_ingreso: 2014,
         carrera: 1708,
+        pass: '1234',
         datos_ramo:
           [
             {
@@ -298,6 +299,7 @@ const estudiantes =
           estudiante: "007",
           anio_ingreso: 2018,
           carrera: 1708,
+          pass: '1234',
           datos_ramo:
             [
               {
@@ -344,7 +346,7 @@ const estudiantes =
                 semestre: 1,
                 estado: "C",
 
-              }
+              },
               {
 
 
@@ -467,6 +469,7 @@ const estudiantes =
             estudiante: "012",
             anio_ingreso: 2016,
             carrera: 1708,
+            pass: '1234',
             datos_ramo:
               [
                 {
@@ -657,6 +660,7 @@ const estudiantes =
               estudiante: "011",
               anio_ingreso: 2018,
               carrera: 1708,
+              pass: '1234',
               datos_ramo:
                 [
                   {
@@ -739,6 +743,7 @@ const estudiantes =
                 estudiante: "010",
                 anio_ingreso: 2016,
                 carrera: 1708,
+                pass: '1234',
                 datos_ramo:
                   [
                     {
@@ -947,6 +952,7 @@ const estudiantes =
                   estudiante: "009",
                   anio_ingreso: 2014,
                   carrera: 1708,
+                  pass: '1234',
                   datos_ramo:
                     [
                       {
@@ -1065,6 +1071,7 @@ const estudiantes =
                     estudiante: "008",
                     anio_ingreso: 2016,
                     carrera: 1708,
+                    pass: '1234',
                     datos_ramo:
                       [
                         {
@@ -1219,6 +1226,7 @@ const estudiantes =
                       estudiante: "002",
                       anio_ingreso: 2018,
                       carrera: 1708,
+                      pass: '1234',
                       datos_ramo:
                         [
                           {
@@ -1463,6 +1471,7 @@ const estudiantes =
                         estudiante: "003",
                         anio_ingreso: 2016,
                         carrera: 1708,
+                        pass: '1234',
                         datos_ramo:
                           [
                             {
@@ -1538,7 +1547,7 @@ const estudiantes =
                               tipo_registro: "CURSADA",
                               anio: 2016,
                               semestre: 1,
-                              estado: "A
+                              estado: "A"
                             },
                             {
                               asignatura_codigo: "INFO013-07",
@@ -1807,6 +1816,7 @@ const estudiantes =
                           estudiante: "004",
                           anio_ingreso: 2016,
                           carrera: 1708,
+                          pass: '1234',
                           datos_ramo:
                             [
                               {
@@ -2232,6 +2242,7 @@ const estudiantes =
                             estudiante: "005",
                             anio_ingreso: 2014,
                             carrera: 1708,
+                            pass: '1234',
                             datos_ramo:
                               [
                                 {
@@ -2350,6 +2361,7 @@ const estudiantes =
                               estudiante: "006",
                               anio_ingreso: 2018,
                               carrera: 1708,
+                              pass: '1234',
                               datos_ramo:
                                 [
                                   {

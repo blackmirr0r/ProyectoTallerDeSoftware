@@ -2,6 +2,7 @@ import React from 'react';
 import Data from '../Data/dataMalla';
 import Asignatura from './Asignatura';
 import Semestre from './Semestre';
+import Navbar from '../Navbar';
 
 function Malla(props) {
 
@@ -10,6 +11,7 @@ function Malla(props) {
     return (
 
       <div>
+            <Navbar />
             <div className="row d-flex justify-content-center my-5">
                     {Data.map((semestre, index) =>
                         <Semestre

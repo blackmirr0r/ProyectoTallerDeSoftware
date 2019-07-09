@@ -33,7 +33,7 @@ class BotonAsignatura extends React.Component {
 
                 {/* Información de de asignatura */}
                 <Modal show={this.state.show} onHide={this.handleClose} size="sm">
-                    <Modal.Header closeButton>
+                    <Modal.Header>
                       <Modal.Title> {this.props.ramo.nombre}  </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
