@@ -2,9 +2,6 @@ import React, {Component} from 'react';
 import '../Login.css';
 import dataEstudiantes from '../Data/dataEstudiante';
 import { BrowserRouter as Router, Redirect } from 'react-router-dom';
-import PropTypes from 'proptypes';
-
-
 
 function isFound(name, pass){
   for(let i = 0; i < dataEstudiantes.length; ++i){
@@ -29,21 +26,20 @@ class Formulario extends Component {
       this.handleSubmit = this.handleSubmit.bind(this);
       this.handleChange = this.handleChange.bind(this);
     };
-    static contextTypes = {
-      router: PropTypes.object,
-    }
+
     handleSubmit = e => {
         e.preventDefault();
         const name_user = this.state.name_user;
         const pass = this.state.pass;
         const found = isFound(name_user, pass);
         if (!found) {
-            console.log("Estudiante no registrado");
+            alert("Estudiante no registrado");
+
         }
         else{
-            console.log("Bienvenido ", name_user);
+            alert("Bienvenido ", name_user);
             //Need redirect to malla page with the info
-            //react is boring
+            //react is fucking boring
 
         }
     }
