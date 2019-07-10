@@ -1,4 +1,4 @@
-# ProyectoTallerDeSoftware
+# Proyecto Taller De Software
 
 Proyecto para la asignatura de Taller de construcción de software que sirve de ayuda para el estudiante a organizarse con sus asignaturas.
 
