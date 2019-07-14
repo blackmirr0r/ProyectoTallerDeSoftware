@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import '../Login.css';
 import dataEstudiantes from '../Data/dataEstudiante';
-import { BrowserRouter as Router, Redirect } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+import Malla from '../ComponentesMalla/Malla';
+import  PropTypes from 'prop-types';
 
 function isFound(name, pass){
   for(let i = 0; i < dataEstudiantes.length; ++i){
@@ -26,18 +28,28 @@ class Formulario extends Component {
       this.handleSubmit = this.handleSubmit.bind(this);
       this.handleChange = this.handleChange.bind(this);
     };
+    //clearInput = (user, pass) => {
+
+    //}
+    static contextTypes = {
+      router: PropTypes.object
+    }
+
+
+    validateForm = () => {
+        return this.state.name_user.length > 0 && this.state.pass.length > 0;
+    }
 
     handleSubmit = e => {
         e.preventDefault();
         const name_user = this.state.name_user;
-        const pass = this.state.pass;
-        const found = isFound(name_user, pass);
-        if (!found) {
-            alert("Estudiante no registrado");
+        const password = this.state.pass;
 
+        if (!isFound(name_user, password)) {
+            alert("Estudiante no registrado");
         }
         else{
-            alert("Bienvenido ", name_user);
+            //this.context.router.push('/');
             //Need redirect to malla page with the info
             //react is fucking boring
 
@@ -64,10 +76,13 @@ class Formulario extends Component {
                           <label className="d-flex justify-content-start">Nombre usuario</label>
                           <input
                               type="text"
+                              autoFocus
                               onChange={this.handleChange}
                               class="form-control"
                               name="name_user"
                               placeholder="Nombre usuario">
+
+
                           </input>
                         </div>
                         <div class="form-group ml-3">
@@ -81,7 +96,12 @@ class Formulario extends Component {
                             </input>
                         </div>
                         <div class="form-group col d-flex mt-2">
-                              <button type="submit" class="btn text-white btn-block">Ingresar</button>
+                              <button
+                                  type="submit"
+                                  class="btn text-white btn-block"
+                                  disabled={!this.validateForm()}>
+                                  Ingresar
+                              </button>
                         </div>
                   </form>
               </div>
