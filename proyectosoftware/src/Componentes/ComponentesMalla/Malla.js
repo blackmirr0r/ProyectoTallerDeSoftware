@@ -3,6 +3,7 @@ import Data from '../Data/dataMalla';
 import Asignatura from './Asignatura';
 import Semestre from './Semestre';
 import Navbar from '../Navbar';
+import '../Login.css';
 
 function Malla(props) {
 

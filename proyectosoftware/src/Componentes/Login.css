@@ -40,7 +40,13 @@ label {
 }
 
 
-button{
-  background: #4C0B5F !important;
-  border-color: #4C0B5F !important;
+
+
+.nombreAsignatura_container{
+    display: inline-block;
+    max-width: 19rem;
+
+}
+.semestre_container{
+  max-width: 20rem;
 }

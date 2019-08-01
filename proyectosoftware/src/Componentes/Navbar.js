@@ -1,27 +1,38 @@
 import React from 'react';
+import SearchStudents from './ComponentesNavbar/SearchStudents'; 
+import { OverlayTrigger, Button } from 'react-bootstrap';
 
 function Navbar() {
-  return (
-    <div className="container-fluid morado">
-        <nav className="navbar navbar-expand-lg text-white navbar-dark morado container ">
-            <div className="collapse navbar-collapse">
-                <a className="navbar-brand mr-4" href="/">NombreApp</a>
-                <div className="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <div className="nav-item active ml-4">
-                        <a className="nav-link" href="/">Malla Curricular<span className="sr-only">(current)</span></a>
-                    </div>
-                    <div className="nav-item ml-2">
-                        <a className="nav-link" href="/armatuhorario">Arma tú horario</a>
-                    </div>
-                    <div className="d-flex justify-content-end nav-item ml-4">
-                        <button href="/usuario" className="text-decoration-none btn fas fa-user-circle fa-code fa-2x"></button>
-                    </div>
-                </div>
+    return (
+      <div className="container-fluid bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark container">
+          <div className="mr-5">
+            <a class="navbar-brand" href="#">MierdApp</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"   aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
 
-            </div>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav d-flex justify-content-end mr-5">
+              <li class="nav-item active mr-3">
+                <a class="nav-link" href="#">Malla <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link" href="#">Horario</a>
+              </li>
+              <li class="nav-item mr-3">
+                <a class="nav-link" href="#">Información</a>
+              </li>
+
+            </ul>
+          </div>
+          <div>
+              <SearchStudents />
+          </div>
         </nav>
-    </div>
-  );
-}
+      </div>
+    );
+  }
 
 export default Navbar;

@@ -1,8 +1,8 @@
-const estudiantes =
+const students =
 [
     {
 
-        estudiante: '001',
+        codigo_estudiante: '135790',
         anio_ingreso: 2014,
         carrera: 1708,
         pass: '1234',
@@ -296,7 +296,7 @@ const estudiantes =
       },
       {
 
-          estudiante: "007",
+          codigo_estudiante: "123456",
           anio_ingreso: 2018,
           carrera: 1708,
           pass: '1234',
@@ -466,7 +466,7 @@ const estudiantes =
         },
         {
 
-            estudiante: "012",
+            codigo_estudiante: "012345",
             anio_ingreso: 2016,
             carrera: 1708,
             pass: '1234',
@@ -657,7 +657,7 @@ const estudiantes =
           },
           {
 
-              estudiante: "011",
+              codigo_estudiante: "567890",
               anio_ingreso: 2018,
               carrera: 1708,
               pass: '1234',
@@ -740,7 +740,7 @@ const estudiantes =
             },
             {
 
-                estudiante: "010",
+                codigo_estudiante: "001123",
                 anio_ingreso: 2016,
                 carrera: 1708,
                 pass: '1234',
@@ -949,7 +949,7 @@ const estudiantes =
               },
               {
 
-                  estudiante: "009",
+                  codigo_estudiante: "987654",
                   anio_ingreso: 2014,
                   carrera: 1708,
                   pass: '1234',
@@ -1068,7 +1068,7 @@ const estudiantes =
                 },
                 {
 
-                    estudiante: "008",
+                    codigo_estudiante: "654321",
                     anio_ingreso: 2016,
                     carrera: 1708,
                     pass: '1234',
@@ -1223,7 +1223,7 @@ const estudiantes =
                   },
                   {
 
-                      estudiante: "002",
+                      codigo_estudiante: "001239",
                       anio_ingreso: 2018,
                       carrera: 1708,
                       pass: '1234',
@@ -1468,7 +1468,7 @@ const estudiantes =
                     },
                     {
 
-                        estudiante: "003",
+                        codigo_estudiante: "111111",
                         anio_ingreso: 2016,
                         carrera: 1708,
                         pass: '1234',
@@ -1813,7 +1813,7 @@ const estudiantes =
                       },
                       {
 
-                          estudiante: "004",
+                          codigo_estudiante: "000000",
                           anio_ingreso: 2016,
                           carrera: 1708,
                           pass: '1234',
@@ -2239,7 +2239,7 @@ const estudiantes =
                         },
                         {
 
-                            estudiante: "005",
+                            codigo_estudiante: "000111",
                             anio_ingreso: 2014,
                             carrera: 1708,
                             pass: '1234',
@@ -2358,7 +2358,7 @@ const estudiantes =
                           },
                           {
 
-                              estudiante: "006",
+                              codigo_estudiante: "222222",
                               anio_ingreso: 2018,
                               carrera: 1708,
                               pass: '1234',
@@ -2495,4 +2495,4 @@ const estudiantes =
                             },
 
 ];
-export default estudiantes;
+export default students;
