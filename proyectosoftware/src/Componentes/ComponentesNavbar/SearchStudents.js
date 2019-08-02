@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import { OverlayTrigger } from 'react-bootstrap';
-import Help from './Help';
 import Data from '../Data/dataEstudiante';
+import swal from 'sweetalert';
+
+
 
 function isFound(code)
 {
@@ -24,6 +26,7 @@ class SearchStudents extends Component {
 
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
+        this.handleClick = this.handleClick.bind(this);
 
         this.state = {
             code: ''
@@ -33,7 +36,8 @@ class SearchStudents extends Component {
     handleSubmit = (e) => {
         e.preventDefault();
         const code = this.state.code;
-        isFound(code) ? console.log("Bienvenido ", code) : console.log("Estudiante no registrado");
+        isFound(code) ? swal("Bienvenido", "Ahora accede a tus datos personales", "success")
+                        : swal("Estudiante no registrado", "", "error");
     }
 
     handleChange = e => {
@@ -45,10 +49,14 @@ class SearchStudents extends Component {
           }, () => console.log(this.state));
     }
 
+    handleClick = () => {
+        swal("Consejo!", "Puedes ingresar tu codigo estudiantil para acceder a datos personalizados");
+
+    }
 
     render(){
       return (
-        <div>
+        <div class="d-flex">
             <form class="form-inline my-2 my-lg-0" onSubmit={this.handleSubmit}>
                 <input
                        class="form-control mr-sm-2"
@@ -60,19 +68,14 @@ class SearchStudents extends Component {
                 </input>
 
                 <button
-                      class="ml-3 btn btn-danger my-2 my-sm-0"
+                      class="ml-3 btn orange text-white my-2 my-sm-0"
                       type="submit">
                       Buscar
                 </button>
-
-                <OverlayTrigger
-                    trigger="click"
-                    placement="right"
-                    overlay={Help}>
-                    <button class="ml-3 btn btn-danger my-2 my-sm-0">?</button>
-                </OverlayTrigger>
             </form>
+            <button class="ml-3 btn orange text-white my-2 my-sm-0" onClick={this.handleClick}>?</button>
         </div>
+
       );
     }
 
