@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import { OverlayTrigger } from 'react-bootstrap';
 import Data from '../Data/dataEstudiante';
 import swal from 'sweetalert';
-
-
+import Malla from '../ComponentesMalla/Malla';
 
 function isFound(code)
 {
@@ -34,10 +32,22 @@ class SearchStudents extends Component {
     }
 
     handleSubmit = (e) => {
-        e.preventDefault();
         const code = this.state.code;
-        isFound(code) ? swal("Bienvenido", "Ahora accede a tus datos personales", "success")
-                        : swal("Estudiante no registrado", "", "error");
+        const logIn = false;
+
+        if(isFound(code))
+        {
+            swal("Bienvenido", "Ahora accede a tus datos personales", "success");
+            return <Malla
+                        loggeado={!logIn}
+                    />
+        }
+        else
+        {
+            swal("Estudiante no registrado", "", "error");
+            this.setState({ code: '' })
+            e.preventDefault();
+        }
     }
 
     handleChange = e => {

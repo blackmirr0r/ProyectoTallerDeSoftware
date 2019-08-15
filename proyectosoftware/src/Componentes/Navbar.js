@@ -1,6 +1,6 @@
 import React from 'react';
-import SearchStudents from './ComponentesNavbar/SearchStudents'; 
-import { OverlayTrigger, Button } from 'react-bootstrap';
+import SearchStudents from './ComponentesNavbar/SearchStudents';
+
 
 function Navbar() {
     return (
@@ -13,16 +13,16 @@ function Navbar() {
             </button>
           </div>
 
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav d-flex justify-content-end mr-5">
-              <li class="nav-item active mr-3">
-                <a class="nav-link" href="#">Malla <span class="sr-only">(current)</span></a>
+          <div className="collapse navbar-collapse">
+            <ul className="navbar-nav d-flex justify-content-end mr-5">
+              <li className="nav-item active mr-3">
+                <a className="nav-link" href="#">Malla <span className="sr-only">(current)</span></a>
               </li>
-              <li class="nav-item mr-3">
-                <a class="nav-link" href="#">Horario</a>
+              <li className="nav-item mr-3">
+                <a className="nav-link" href="#">Horario</a>
               </li>
-              <li class="nav-item mr-3">
-                <a class="nav-link" href="#">Información</a>
+              <li className="nav-item mr-3">
+                <a className="nav-link" href="#">Información</a>
               </li>
 
             </ul>
