@@ -11,7 +11,8 @@ const malla_2008 =
                     codigo: "BAIN017",
                     creditos: 6,
                     tasa_repr: 0.34,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 1,
@@ -20,7 +21,8 @@ const malla_2008 =
                     codigo: "BAIN012",
                     creditos: 6,
                     tasa_repr: 0.32,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 2,
@@ -29,7 +31,8 @@ const malla_2008 =
                     codigo: "INFO013",
                     creditos: 4,
                     tasa_repr: 0.99,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 3,
@@ -38,7 +41,8 @@ const malla_2008 =
                     codigo: "BAIN009",
                     creditos: 4,
                     tasa_repr: 0.07,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 4,
@@ -47,7 +51,8 @@ const malla_2008 =
                     codigo: "BAIN019",
                     creditos: 4,
                     tasa_repr: 0.31,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 5,
@@ -56,7 +61,8 @@ const malla_2008 =
                     codigo: "DYRE060",
                     creditos: 4,
                     tasa_repr: 0.,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 6,
@@ -65,7 +71,8 @@ const malla_2008 =
                     codigo: "INFO015",
                     creditos: 4,
                     tasa_repr: 0.105,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 }
 
             ]
@@ -81,7 +88,8 @@ const malla_2008 =
                     codigo: "BAIN037",
                     creditos: 6,
                     tasa_repr: 0.45,
-                    requisitos: ['Álgebra para Ingeniería']
+                    requisitos: ['Álgebra para Ingeniería'],
+                    descripcion: ""
                 },
                 {
                     id: 8,
@@ -90,7 +98,8 @@ const malla_2008 =
                     codigo: "BAIN012",
                     creditos: 6,
                     tasa_repr: 0.12,
-                    requisitos: ["Álgebra para Ingeniería","Geometría para Ingeniería"]
+                    requisitos: ["Álgebra para Ingeniería","Geometría para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 9,
@@ -99,7 +108,8 @@ const malla_2008 =
                     codigo: "INFO023",
                     creditos: 4,
                     tasa_repr: 0.23,
-                    requisitos: ["Introducción a la programación"]
+                    requisitos: ["Introducción a la programación"],
+                    descripcion: ""
                 },
                 {
                     id: 10,
@@ -108,7 +118,8 @@ const malla_2008 =
                     codigo: "BAIN036",
                     creditos: 5,
                     tasa_repr: 0.47,
-                    requisitos: ["Álgebra para Ingeniería"]
+                    requisitos: ["Álgebra para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 11,
@@ -117,7 +128,8 @@ const malla_2008 =
                     codigo: "INFO025",
                     creditos: 4,
                     tasa_repr: 0.05,
-                    requisitos: ["Álgebra para Ingeniería","Geometría para Ingeniería","Taller de Ingeniería I"]
+                    requisitos: ["Álgebra para Ingeniería","Geometría para Ingeniería","Taller de Ingeniería I"],
+                    descripcion: ""
                 },
                 {
                     id: 12,
@@ -126,7 +138,8 @@ const malla_2008 =
                     codigo: "BAIN039",
                     creditos: 4,
                     tasa_repr: 0.205,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
             ]
     },
@@ -141,7 +154,8 @@ const malla_2008 =
                     codigo: "BAIN042",
                     creditos: 5,
                     tasa_repr: 0.45,
-                    requisitos: ["Cálculo I para Ingeniería"]
+                    requisitos: ["Cálculo I para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 14,
@@ -150,7 +164,8 @@ const malla_2008 =
                     codigo: "BAIN043",
                     creditos: 6,
                     tasa_repr: 0.12,
-                    requisitos: ["Cálculo I para Ingeniería","Física I para Ingeniería"]
+                    requisitos: ["Cálculo I para Ingeniería","Física I para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 15,
@@ -159,7 +174,8 @@ const malla_2008 =
                     codigo: "BAIN041",
                     creditos: 5,
                     tasa_repr: 0.23,
-                    requisitos: ["Cálculo I para Ingeniería"]
+                    requisitos: ["Cálculo I para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 16,
@@ -168,7 +184,8 @@ const malla_2008 =
                     codigo: "INFO043",
                     creditos: 6,
                     tasa_repr: 0.45,
-                    requisitos: ["Algebra Lineal para Ingeniería","Introducción a la programación"]
+                    requisitos: ["Algebra Lineal para Ingeniería","Introducción a la programación"],
+                    descripcion: ""
                 },
                 {
                     id: 17,
@@ -177,7 +194,8 @@ const malla_2008 =
                     codigo: "INFO035",
                     creditos: 4,
                     tasa_repr: 0.99,
-                    requisitos: ["Taller de Ingeniería II"]
+                    requisitos: ["Taller de Ingeniería II"],
+                    descripcion: ""
                 },
                 {
                     id: 18,
@@ -186,7 +204,8 @@ const malla_2008 =
                     codigo: "INFO033",
                     creditos: 3,
                     tasa_repr: 0.21,
-                    requisitos: ["Programación"]
+                    requisitos: ["Programación"],
+                    descripcion: ""
                 },
             ]
     },
@@ -201,7 +220,8 @@ const malla_2008 =
                     codigo: "BAIN052",
                     creditos: 4,
                     tasa_repr: 0.27,
-                    requisitos: ["Algebra Lineal para Ingeniería"]
+                    requisitos: ["Algebra Lineal para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 20,
@@ -210,7 +230,8 @@ const malla_2008 =
                     codigo: "BAIN053",
                     creditos: 4,
                     tasa_repr: 0.41,
-                    requisitos: ["Ecuaciones Diferenciales para Ingeniería"]
+                    requisitos: ["Ecuaciones Diferenciales para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 21,
@@ -219,7 +240,8 @@ const malla_2008 =
                     codigo: "BAIN054",
                     creditos: 8,
                     tasa_repr: 0.207,
-                    requisitos: ["Ecuaciones Diferenciales para Ingeniería","Calculo II para Ingeniería"]
+                    requisitos: ["Ecuaciones Diferenciales para Ingeniería","Calculo II para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 22,
@@ -228,7 +250,8 @@ const malla_2008 =
                     codigo: "INFO045",
                     creditos: 6,
                     tasa_repr: 0.008,
-                    requisitos: ["Calculo II para Ingeniería","Ecuaciones Diferenciales para Ingeniería","Taller de Ingeniería III"]
+                    requisitos: ["Calculo II para Ingeniería","Ecuaciones Diferenciales para Ingeniería","Taller de Ingeniería III"],
+                    descripcion: ""
                 },
                 {
                     id: 23,
@@ -237,7 +260,8 @@ const malla_2008 =
                     codigo: "INFO053",
                     creditos: 6,
                     tasa_repr: 0.39,
-                    requisitos: ["Estructuras Discretas","Taller de Ingeniería III"]
+                    requisitos: ["Estructuras Discretas","Taller de Ingeniería III"],
+                    descripcion: ""
                 },
                 {
                     id: 24,
@@ -246,7 +270,8 @@ const malla_2008 =
                     codigo: "ELECT01",
                     creditos: 0,
                     tasa_repr: 0,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 }
 	    ]
         },
@@ -261,7 +286,8 @@ const malla_2008 =
                     codigo: "ADMI100",
                     creditos: 6,
                     tasa_repr: 0.06,
-                    requisitos: ["Comunicación: Idioma Español","Taller de Ingeniería III"]
+                    requisitos: ["Comunicación: Idioma Español","Taller de Ingeniería III"],
+                    descripcion: ""
                 },
                 {
                     id: 26,
@@ -270,7 +296,8 @@ const malla_2008 =
                     codigo: "INFO164",
                     creditos: 6,
                     tasa_repr: 0.24,
-                    requisitos: ["Estructuras de Datos y Algoritmos"]
+                    requisitos: ["Estructuras de Datos y Algoritmos"],
+                    descripcion: ""
                 },
                 {
                     id: 27,
@@ -279,7 +306,8 @@ const malla_2008 =
                     codigo: "INFO172",
                     creditos: 5,
                     tasa_repr: 0.23,
-                    requisitos: ["Algebra Lineal para Ingeniería"]
+                    requisitos: ["Algebra Lineal para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 28,
@@ -288,7 +316,8 @@ const malla_2008 =
                     codigo: "INFO175",
                     creditos: 4,
                     tasa_repr: 0.049,
-                    requisitos: ["Fisica III para Ingeniería","Estructuras de Datos y Algoritmos"]
+                    requisitos: ["Fisica III para Ingeniería","Estructuras de Datos y Algoritmos"],
+                    descripcion: ""
                 },
                 {
                     id: 29,
@@ -297,7 +326,8 @@ const malla_2008 =
                     codigo: "INFO184",
                     creditos: 5,
                     tasa_repr: 0.27,
-                    requisitos: ["Quimica para Ingeniería","Cálculo I para Ingeniería","Física I para Ingeniería"]
+                    requisitos: ["Quimica para Ingeniería","Cálculo I para Ingeniería","Física I para Ingeniería"],
+                    descripcion: ""
                 }
             ]
     },
@@ -312,7 +342,8 @@ const malla_2008 =
                     codigo: "INFO163",
                     creditos: 4,
                     tasa_repr: 0.17,
-                    requisitos: ["Estructuras de Datos y Algoritmos"]
+                    requisitos: ["Estructuras de Datos y Algoritmos"],
+                    descripcion: ""
                 },
                 {
                     id: 31,
@@ -321,7 +352,8 @@ const malla_2008 =
                     codigo: "INFO165",
                     creditos: 5,
                     tasa_repr: 0.22,
-                    requisitos: ["Teoría de Automatas"]
+                    requisitos: ["Teoría de Automatas"],
+                    descripcion: ""
                 },
                 {
                     id: 32,
@@ -330,7 +362,8 @@ const malla_2008 =
                     codigo: "INFO173",
                     creditos: 5,
                     tasa_repr: 0.19,
-                    requisitos: ["Calculo II para Ingeniería","Estadistica y Probabilidades para Ingeniería","Investigación Operativa I"]
+                    requisitos: ["Calculo II para Ingeniería","Estadistica y Probabilidades para Ingeniería","Investigación Operativa I"],
+                    descripcion: ""
                 },
                 {
                     id: 33,
@@ -339,7 +372,8 @@ const malla_2008 =
                     codigo: "INFO183",
                     creditos: 5,
                     tasa_repr: 0.27,
-                    requisitos: ["Ecuaciones Diferenciales para Ingeniería","Arquitectura de Computadores"]
+                    requisitos: ["Ecuaciones Diferenciales para Ingeniería","Arquitectura de Computadores"],
+                    descripcion: ""
                 },
                 {
                     id: 34,
@@ -348,7 +382,8 @@ const malla_2008 =
                     codigo: "INFO261",
                     creditos: 6,
                     tasa_repr: 0.13,
-                    requisitos: ["Teoría de Automatas"]
+                    requisitos: ["Teoría de Automatas"],
+                    descripcion: ""
                 },
                  {
                     id: 35,
@@ -357,7 +392,8 @@ const malla_2008 =
                     codigo: "INFO265",
                     creditos: 6,
                     tasa_repr: 0.03,
-                    requisitos: ["Taller de Ingeniería III","Estructuras de Datos y Algoritmos"]
+                    requisitos: ["Taller de Ingeniería III","Estructuras de Datos y Algoritmos"],
+                    descripcion: ""
                 },
             ]
     },
@@ -372,7 +408,8 @@ const malla_2008 =
                     codigo: "IECO102",
                     creditos: 4,
                     tasa_repr: 0.12,
-                    requisitos: ["Taller de Ingeniería III","Calculo II para Ingeniería"]
+                    requisitos: ["Taller de Ingeniería III","Calculo II para Ingeniería"],
+                    descripcion: ""
                 },
                 {
                     id: 37,
@@ -381,7 +418,8 @@ const malla_2008 =
                     codigo: "INFO182",
                     creditos: 4,
                     tasa_repr: 0.21,
-                    requisitos: ["Programación Concurrente"]
+                    requisitos: ["Programación Concurrente"],
+                    descripcion: ""
                 },
                 {
                     id: 38,
@@ -390,7 +428,8 @@ const malla_2008 =
                     codigo: "INFO185",
                     creditos: 6,
                     tasa_repr: 0.05,
-                    requisitos: ["Calculo II para Ingeniería","Estadistica y Probabilidades para Ingeniería","Arquitectura de Computadores"]
+                    requisitos: ["Calculo II para Ingeniería","Estadistica y Probabilidades para Ingeniería","Arquitectura de Computadores"],
+                    descripcion: ""
                 },
                 {
                     id: 39,
@@ -399,7 +438,8 @@ const malla_2008 =
                     codigo: "INFO189",
                     creditos: 4,
                     tasa_repr: 0.12,
-                    requisitos: ["Física 2 para Ingeniería","Métodos Númericos para Ingeniería","Taller","Analisis de Sistemas Linales"]
+                    requisitos: ["Física 2 para Ingeniería","Métodos Númericos para Ingeniería","Taller","Analisis de Sistemas Linales"],
+                    descripcion: ""
                 },
                 {
                     id: 40,
@@ -408,7 +448,8 @@ const malla_2008 =
                     codigo: "INFO263",
                     creditos: 5,
                     tasa_repr: 0.08,
-                    requisitos: ["Administración de Empresas","Taller de Construcción de Software"]
+                    requisitos: ["Administración de Empresas","Taller de Construcción de Software"],
+                    descripcion: ""
                 },
                  {
                     id: 41,
@@ -417,7 +458,8 @@ const malla_2008 =
                     codigo: "INFO270",
                     creditos: 4,
                     tasa_repr: 0.12,
-                    requisitos: ["Teoría de Automatas"]
+                    requisitos: ["Teoría de Automatas"],
+                    descripcion: ""
                 },
             ]
     },
@@ -432,7 +474,8 @@ const malla_2008 =
                     codigo: "INFO264",
                     creditos: 6,
                     tasa_repr: 0.03,
-                    requisitos: ["Taller de Ingeniería III","Base de Datos","Fundamentos de Ingeniería de Software"]
+                    requisitos: ["Taller de Ingeniería III","Base de Datos","Fundamentos de Ingeniería de Software"],
+                    descripcion: ""
                 },
                 {
                     id: 43,
@@ -441,7 +484,8 @@ const malla_2008 =
                     codigo: "INFO266",
                     creditos: 6,
                     tasa_repr: 0.04,
-                    requisitos: ["Fundamentos de Ingeniería de Software"]
+                    requisitos: ["Fundamentos de Ingeniería de Software"],
+                    descripcion: ""
                 },
                 {
                     id: 44,
@@ -450,7 +494,8 @@ const malla_2008 =
                     codigo: "INFO271",
                     creditos: 4,
                     tasa_repr:0.03,
-                    requisitos: ["Administración de Empresas","Economía General","Ingeniería de Sistemas"]
+                    requisitos: ["Administración de Empresas","Economía General","Ingeniería de Sistemas"],
+                    descripcion: ""
                 },
                 {
                     id: 45,
@@ -459,7 +504,8 @@ const malla_2008 =
                     codigo: "INFO272",
                     creditos: 4,
                     tasa_repr: 0.14,
-                    requisitos: ["Investigación Operativa II","Economía General"]
+                    requisitos: ["Investigación Operativa II","Economía General"],
+                    descripcion: ""
                 },
                 {
                     id: 46,
@@ -468,7 +514,8 @@ const malla_2008 =
                     codigo: "INFO281",
                     creditos: 6,
                     tasa_repr: 0.13,
-                    requisitos: ["Sistemas Operativos","Comunicaciones"]
+                    requisitos: ["Sistemas Operativos","Comunicaciones"],
+                    descripcion: ""
                 },
                  {
                     id: 47,
@@ -477,7 +524,8 @@ const malla_2008 =
                     codigo: "INFO284",
                     creditos: 6,
                     tasa_repr: 0.03,
-                    requisitos: ["Fisica III para Ingeniería","Taller de Construcción de Software","Analisis de Sistemas Linales"]
+                    requisitos: ["Fisica III para Ingeniería","Taller de Construcción de Software","Analisis de Sistemas Linales"],
+                    descripcion: ""
                 },
                 ]
             },
@@ -492,7 +540,8 @@ const malla_2008 =
                     codigo: "CIDI108",
                     creditos: 4,
                     tasa_repr: 0.05,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 49,
@@ -501,7 +550,8 @@ const malla_2008 =
                     codigo: "EICI297",
                     creditos: 8,
                     tasa_repr: 0,
-                    requisitos: ["Taller de Ingeniería de Software","Interfaz Humano-Computador","Sistemas de Información","Ingeniería Económica","Redes","Taller de Integración de TIC"]
+                    requisitos: ["Taller de Ingeniería de Software","Interfaz Humano-Computador","Sistemas de Información","Ingeniería Económica","Redes","Taller de Integración de TIC"],
+                    descripcion: ""
                 },
                 {
                     id: 50,
@@ -510,7 +560,8 @@ const malla_2008 =
                     codigo: "ELECT02",
                     creditos: 0,
                     tasa_repr: 0,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 51,
@@ -519,7 +570,8 @@ const malla_2008 =
                     codigo: "INFO251",
                     creditos: 2,
                     tasa_repr: 0,
-                    requisitos: ["Taller de Ingeniería de Software","Ingeniería Económica","Redes"]
+                    requisitos: ["Taller de Ingeniería de Software","Ingeniería Económica","Redes"],
+                    descripcion: ""
                 },
                 {
                     id: 52,
@@ -528,7 +580,8 @@ const malla_2008 =
                     codigo: "INFO252",
                     creditos: 4,
                     tasa_repr: 0.03,
-                    requisitos: ["Taller de Ingeniería de Software","Ingeniería Económica","Sistemas de Información"]
+                    requisitos: ["Taller de Ingeniería de Software","Ingeniería Económica","Sistemas de Información"],
+                    descripcion: ""
                 },
                  {
                     id: 53,
@@ -537,7 +590,8 @@ const malla_2008 =
                     codigo: "INFO268",
                     creditos: 4,
                     tasa_repr: 0.008,
-                    requisitos: ["Taller de Ingeniería de Software"]
+                    requisitos: ["Taller de Ingeniería de Software"],
+                    descripcion: ""
                 },
                 {
                     id: 54,
@@ -546,7 +600,8 @@ const malla_2008 =
                     codigo: "INFO273",
                     creditos: 5,
                     tasa_repr: 0.025,
-                    requisitos: ["Investigación Operativa II","Sistemas Operativos","Redes"]
+                    requisitos: ["Investigación Operativa II","Sistemas Operativos","Redes"],
+                    descripcion: ""
                 },
                 {
                     id: 55,
@@ -555,7 +610,8 @@ const malla_2008 =
                     codigo: "INFO275",
                     creditos: 5,
                     tasa_repr: 0.025,
-                    requisitos: ["Administración de Empresas","Ingeniería de Sistemas","Ingeniería Económica"]
+                    requisitos: ["Administración de Empresas","Ingeniería de Sistemas","Ingeniería Económica"],
+                    descripcion: ""
                 },
             ]
     },
@@ -570,7 +626,8 @@ const malla_2008 =
                     codigo: "EICI245",
                     creditos: 5,
                     tasa_repr: 0,
-                    requisitos: ["Software de Ingeniería","Taller de Ingeniería de Software","Interfaz Humano-Computador","Redes","Taller de Integración de TIC"]
+                    requisitos: ["Software de Ingeniería","Taller de Ingeniería de Software","Interfaz Humano-Computador","Redes","Taller de Integración de TIC"],
+                    descripcion: ""
                 },
                 {
                     id: 57,
@@ -579,7 +636,8 @@ const malla_2008 =
                     codigo: "EICI246",
                     creditos: 6,
                     tasa_repr: 0.07,
-                    requisitos: ["Sistemas de Información","Sistemas de Gestión Estrategicos","Taller de Ingeniería de Software","Redes","Taller de Integración de TIC"]
+                    requisitos: ["Sistemas de Información","Sistemas de Gestión Estrategicos","Taller de Ingeniería de Software","Redes","Taller de Integración de TIC"],
+                    descripcion: ""
                 },
                 {
                     id: 58,
@@ -588,7 +646,8 @@ const malla_2008 =
                     codigo: "EICI247",
                     creditos: 2,
                     tasa_repr: 0,
-                    requisitos: ["Taller de Ingeniería de Software","Ingeniería Económica","Redes"]
+                    requisitos: ["Taller de Ingeniería de Software","Ingeniería Económica","Redes"],
+                    descripcion: ""
                 },
                 {
                     id: 59,
@@ -597,7 +656,8 @@ const malla_2008 =
                     codigo: "INFO267",
                     creditos: 6,
                     tasa_repr: 0.09,
-                    requisitos: ["Taller de Construcción de Software"]
+                    requisitos: ["Taller de Construcción de Software"],
+                    descripcion: ""
                 },
                 {
                     id: 60,
@@ -606,7 +666,8 @@ const malla_2008 =
                     codigo: "INFO274",
                     creditos: 4,
                     tasa_repr: 0.04,
-                    requisitos: ["Investigación Operativa II"]
+                    requisitos: ["Investigación Operativa II"],
+                    descripcion: ""
                 },
                 {
                     id: 61,
@@ -615,7 +676,8 @@ const malla_2008 =
                     codigo: "INFO276",
                     creditos: 4,
                     tasa_repr: 0.008,
-                    requisitos: ["Administración de Empresas","Ingeniería de Sistemas","Ingeniería Económica"]
+                    requisitos: ["Administración de Empresas","Ingeniería de Sistemas","Ingeniería Económica"],
+                    descripcion: ""
                 },
          ]
     },
@@ -630,7 +692,8 @@ const malla_2008 =
                     codigo: "EICI255",
                     creditos: 6,
                     tasa_repr: 0.05,
-                    requisitos: ["Taller de Software-Proyecto Integración de TIC","Arquitectura de Sistemas","Sistema de Gestión Tácticos"]
+                    requisitos: ["Taller de Software-Proyecto Integración de TIC","Arquitectura de Sistemas","Sistema de Gestión Tácticos"],
+                    descripcion: ""
                 },
                 {
                     id: 63,
@@ -639,7 +702,8 @@ const malla_2008 =
                     codigo: "EICI261",
                     creditos: 6,
                     tasa_repr: 0,
-                    requisitos: ["Arquitectura de Sistemas","Sistema de Gestión Tácticos"]
+                    requisitos: ["Arquitectura de Sistemas","Sistema de Gestión Tácticos"],
+                    descripcion: ""
                 },
                 {
                     id: 64,
@@ -648,7 +712,8 @@ const malla_2008 =
                     codigo: "EICI298",
                     creditos: 6,
                     tasa_repr: 0,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 65,
@@ -657,7 +722,8 @@ const malla_2008 =
                     codigo: "ELEC21",
                     creditos: 0,
                     tasa_repr: 0,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 66,
@@ -666,7 +732,8 @@ const malla_2008 =
                     codigo: "ELEC22",
                     creditos: 0,
                     tasa_repr: 0.13,
-                    requisitos: []
+                    requisitos: [],
+                    descripcion: ""
                 },
                 {
                     id: 67,
@@ -675,7 +742,8 @@ const malla_2008 =
                     codigo: "INFO253",
                     creditos: 4,
                     tasa_repr: 0.03,
-                    requisitos: ["Taller de Software-Proyecto Integración de TIC","Arquitectura de Sistemas","Sistema de Gestión Tácticos"]
+                    requisitos: ["Taller de Software-Proyecto Integración de TIC","Arquitectura de Sistemas","Sistema de Gestión Tácticos"],
+                    descripcion: ""
                 },
         ]
     },

@@ -66,10 +66,10 @@ class SearchStudents extends Component {
 
     render(){
       return (
-        <div class="d-flex">
-            <form class="form-inline my-2 my-lg-0" onSubmit={this.handleSubmit}>
+        <div className="d-flex">
+            <form className="form-inline my-2 my-lg-0" onSubmit={this.handleSubmit}>
                 <input
-                       class="form-control mr-sm-2"
+                       className="form-control mr-sm-2"
                        type="text"
                        placeholder="Ingresar codigo"
                        onChange={this.handleChange}
@@ -78,12 +78,12 @@ class SearchStudents extends Component {
                 </input>
 
                 <button
-                      class="ml-3 btn orange text-white my-2 my-sm-0"
+                      className="ml-3 btn orange text-white my-2 my-sm-0"
                       type="submit">
                       Buscar
                 </button>
             </form>
-            <button class="ml-3 btn orange text-white my-2 my-sm-0" onClick={this.handleClick}>?</button>
+            <button className="ml-3 btn orange text-white my-2 my-sm-0" onClick={this.handleClick}>?</button>
         </div>
 
       );

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Malla from './Componentes/ComponentesMalla/Malla';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';

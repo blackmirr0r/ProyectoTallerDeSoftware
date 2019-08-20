@@ -1,11 +1,11 @@
 import React from 'react';
 import Data17 from '../Data/dataMalla17';
 import Data08 from '../Data/dataMalla08';
+import DataObras from '../Data/dataMallaObras';
 import Semestre from './Semestre';
 import Navbar from '../Navbar';
-import SeleccionarMalla from './SeleccionarMalla';
-import { Dropdown, DropdownButton } from 'react-bootstrap';
 import '../Login.css';
+import SearchStudents from '../ComponentesNavbar/SearchStudents';
 
 class Malla extends React.Component {
 
@@ -30,23 +30,34 @@ class Malla extends React.Component {
         let data_actual;
         const malla_actual = this.state.value;
 
-        if(malla_actual === '2017')
-        {
+        if(malla_actual === '2017'){
             data_actual = Data17;
         }
+
+        else if(malla_actual === '2008'){
+            data_actual = Data08;
+        }
+
         else
         {
-            data_actual = Data08;
+            data_actual = DataObras
         }
         return(
 
               <React.Fragment>
                     <Navbar />
-                    <div className="d-flex justify-content-center mt-4 mb-3">
-                          <select value={this.state.value} onChange={this.handleChange}>
-                              <option value="2008"> Malla Ingeniería civil Informática 2008</option>
-                              <option value="2017"> Malla Ingeniería civil Informática 2017</option>
-                          </select>
+                    <div className="d-flex justify-content-center mt-4 mb-5 mt-4">
+                          <div className="mr-5">
+                            <select value={this.state.value} className="btn btn-light" onChange={this.handleChange}>
+                                <option value="2008"> Malla Ingeniería civil Informática 2008</option>
+                                <option value="2017"> Malla Ingeniería civil Informática 2017</option>
+                                <option value="Obras"> Malla Ingeniería civil en Obras Civiles</option>
+
+                            </select>
+                          </div>
+
+                          
+
                     </div>
                     <div className="row d-flex justify-content-center mt-1">
 
